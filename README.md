@@ -29,43 +29,43 @@ Additional material is linked [here](resources.md).
 | Day | What | Topic | Material |
 |-----|------|-------|----------|
 |Tue 18.Aug | Lecture | Hashes and hash chains and merkle trees | [Script](script.pdf) Chapter 1, Videos [1](https://www.youtube.com/watch?v=TwkrJtTL-wc&list=PLnD_TI73e88dsiKwQ3XDqXPBMwQjVt_TB&index=2), [2](https://www.youtube.com/watch?v=CIvdtlQPUf4&list=PLnD_TI73e88dsiKwQ3XDqXPBMwQjVt_TB&index=3), [3](https://www.youtube.com/watch?v=DjZZz70BJ_o&list=PLnD_TI73e88dsiKwQ3XDqXPBMwQjVt_TB&index=4) |
-|Tue 18.Aug | Lab |Lab 1 |  |
+|Tue 18.Aug | Lab | [Lab 1](https://github.com/dat650-2020/assignments/tree/master/lab1) |  |
 |Thu 20.Aug | Lecture |Transactions and UTXO | [Script](script.pdf) Chapter 2 |
 |Tue 25.Aug | Lecture |Proof of Work | [Script](script.pdf) Chapter 3 |
-|Tue 25.Aug | Lab |Lab 1 |  |
+|Tue 25.Aug | Lab | Lab 1 |  |
 |Thr 27.Aug | Lecture |Proof of Work - Forks |  |
 |Tue 01.Sep | Lecture |TBA |  |
-|Tue 01.Sep | Lab | |  |
+|Tue 01.Sep | Lab | [Lab 2](https://github.com/dat650-2020/assignments/tree/master/lab2) |  |
 |Thr 03.Sep | Lecture | TBA |  |
 |Tue 08.Sep | Lecture |TBA |  |
-|Tue 08.Sep | Lab | |  |
+|Tue 08.Sep | Lab | Lab 2 |  |
 |Thr 10.Sep | Lecture | TBA |  |
 |Tue 15.Sep | Lecture |TBA |  |
-|Tue 15.Sep | Lab | |  |
+|Tue 15.Sep | Lab |[Lab 3](https://github.com/dat650-2020/assignments/tree/master/lab3) |  |
 |Thr 17.Sep | Lecture | TBA |  |
 |Tue 22.Sep | Lecture |TBA |  |
-|Tue 22.Sep | Lab | |  |
+|Tue 22.Sep | Lab | Lab 3 |  |
 |Thr 24.Sep | Lecture | TBA |  |
 |Tue 29.Sep | Lecture |TBA |  |
-|Tue 29.Sep | Lab | |  |
+|Tue 29.Sep | Lab | [Projects](https://github.com/dat650-2020/course-info/blob/master/projects) |  |
 |Thr 01.Oct | Lecture | TBA |  |
 |Tue 06.Oct | Lecture |TBA |  |
-|Tue 06.Oct | Lab | |  |
+|Tue 06.Oct | Lab | Project |  |
 |Thr 08.Oct | Lecture | TBA |  |
 |Tue 13.Oct | Lecture |TBA |  |
-|Tue 13.Oct | Lab | |  |
+|Tue 13.Oct | Lab | Project |  |
 |Thr 15.Oct | Lecture | TBA |  |
 |Tue 20.Oct | Lecture |TBA |  |
-|Tue 20.Oct | Lab | |  |
+|Tue 20.Oct | Lab | [Lab 4](https://github.com/dat650-2020/assignments/tree/master/lab4) |  |
 |Thr 22.Oct | Lecture | TBA |  |
 |Tue 27.Oct | Lecture |TBA |  |
-|Thr 27.Oct | Lab | |  |
+|Thr 27.Oct | Lab | [Lab 5](https://github.com/dat650-2020/assignments/tree/master/lab5) |  |
 |Thr 29.Oct | Lecture | TBA |  |
 |Tue 03.Nov | Lecture |TBA |  |
-|Thr 03.Nov | Lab | |  |
+|Thr 03.Nov | Lab | Lab 5 |  |
 |Thr 05.Nov | Lecture | TBA |  |
 |Tue 10.Nov | Lecture |TBA |  |
-|Thr 10.Nov | Lab | |  |
+|Thr 10.Nov | Lab | Final deadline |  |
 |Thr 12.Nov | Lecture | TBA |  |
 
 
