@@ -55,6 +55,6 @@ Nakamotos Bitcoin paper [Whitepaper](https://bitcoin.org/bitcoin.pdf)
 
 ### Ethereum
 
-* [Berkley Lecture](https://learnblockcha.in/)
+* [Berkeley Blockchain Lectures](https://www.youtube.com/channel/UC5sgoRfoSp3jeX4DEqKLwKg)
 
 * [Solidity documentation](https://solidity.readthedocs.io/en/v0.5.0/index.html#)
