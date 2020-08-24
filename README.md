@@ -31,7 +31,7 @@ Additional material is linked [here](resources.md).
 |Tue 18.Aug | Lecture | Hashes and hash chains and merkle trees | [Script](script.pdf) Chapter 1, Videos [1](https://www.youtube.com/watch?v=TwkrJtTL-wc&list=PLnD_TI73e88dsiKwQ3XDqXPBMwQjVt_TB&index=2), [2](https://www.youtube.com/watch?v=CIvdtlQPUf4&list=PLnD_TI73e88dsiKwQ3XDqXPBMwQjVt_TB&index=3), [3](https://www.youtube.com/watch?v=DjZZz70BJ_o&list=PLnD_TI73e88dsiKwQ3XDqXPBMwQjVt_TB&index=4), also videos 7-10 from the same series.|
 |Tue 18.Aug | Lab |Lab 1 |  |
 |Thu 20.Aug | Lecture |Transactions and UTXO | [Script](script.pdf) Chapter 2, [Princton book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf) Chapter 1.4 and 1.5 |
-|Tue 25.Aug | Lecture |Proof of Work | [Script](script.pdf) Chapter 3 |
+|Tue 25.Aug | Lecture |Proof of Work | [Script](script.pdf) Chapter 3.1 - 3.3, Videos [11](https://youtu.be/ehO-TKhuAro) and [13](https://youtu.be/B7O5yDY4_N0)  |
 |Tue 25.Aug | Lab | Lab 1 |  |
 |Thr 27.Aug | Lecture |Proof of Work - Forks |  |
 |Tue 01.Sep | Lecture |TBA |  |
