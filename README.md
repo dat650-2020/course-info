@@ -33,11 +33,11 @@ Additional material is linked [here](resources.md).
 |Thu 20.Aug | Lecture |Transactions and UTXO | [Script](script.pdf) Chapter 2, [Princton book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf) Chapter 1.4 and 1.5 |
 |Tue 25.Aug | Lecture |Proof of Work | [Script](script.pdf) Chapter 3.1 - 3.3, Videos [11](https://youtu.be/ehO-TKhuAro) and [13](https://youtu.be/B7O5yDY4_N0)  |
 |Tue 25.Aug | Lab | Lab 1 |  |
-|Thr 27.Aug | Lecture |Proof of Work - Forks |  |
-|Tue 01.Sep | Lecture |TBA |  |
+|Thr 27.Aug | Lecture | cancelled |  |
+|Tue 01.Sep | Lecture | Proof of Work - Forks | [slides](slides/Lecture-4.pdf) |
 |Tue 01.Sep | Lab | [Lab 2](https://github.com/dat650-2020/assignments/tree/master/lab2) |  |
-|Thr 03.Sep | Lecture | TBA |  |
-|Tue 08.Sep | Lecture |TBA |  |
+|Thr 03.Sep | Lecture | Selfish mining | [slides](slides/Lecture-5.pdf) |
+|Tue 08.Sep | Lecture | Network attacks and hard and soft forks |  |
 |Tue 08.Sep | Lab | Lab 2 |  |
 |Thr 10.Sep | Lecture | TBA |  |
 |Tue 15.Sep | Lecture |TBA |  |
