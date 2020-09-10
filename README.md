@@ -34,13 +34,13 @@ Additional material is linked [here](resources.md).
 |Tue 25.Aug | Lecture |Proof of Work | [Script](script.pdf) Chapter 3.1 - 3.3, Videos [11](https://youtu.be/ehO-TKhuAro) and [13](https://youtu.be/B7O5yDY4_N0)  |
 |Tue 25.Aug | Lab | Lab 1 |  |
 |Thr 27.Aug | Lecture | cancelled |  |
-|Tue 01.Sep | Lecture | Proof of Work - Forks | [slides](slides/Lecture-4.pdf) |
+|Tue 01.Sep | Lecture | Proof of Work - Forks | Chapter 3.4 [slides](slides/Lecture-4.pdf) |
 |Tue 01.Sep | Lab | [Lab 2](https://github.com/dat650-2020/assignments/tree/master/lab2) |  |
-|Thr 03.Sep | Lecture | Selfish mining | [slides](slides/Lecture-5.pdf) |
-|Tue 08.Sep | Lecture | Network attacks and hard and soft forks |  |
+|Thr 03.Sep | Lecture | Selfish mining | Chapter 3.5 [slides](slides/Lecture-5.pdf) |
+|Tue 08.Sep | Lecture | Network attacks and hard and soft forks | Chapter 3.6 - 3.8 |
 |Tue 08.Sep | Lab | Lab 2 |  |
-|Thr 10.Sep | Lecture | TBA |  |
-|Tue 15.Sep | Lecture |TBA |  |
+|Thr 10.Sep | Lecture | Alternative PoW and Scaling PoW (reparametrization) | Chapter 4 and 5.1  |
+|Tue 15.Sep | Lecture | Bitcoin-NG and Scharding | Chapter 5.2 and 5.3, [Bitcoin-NG](https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal) [Sharding](https://www.usenix.org/conference/nsdi19/presentation/wang-jiaping) |
 |Tue 15.Sep | Lab |[Lab 3](https://github.com/dat650-2020/assignments/tree/master/lab3) |  |
 |Thr 17.Sep | Lecture | TBA |  |
 |Tue 22.Sep | Lecture |TBA |  |
