@@ -29,8 +29,12 @@ All groups are expected to present their project to the class on Tuesday 13th Oc
 This will happen on zoom.
 The goal for the presentation is not to create a competition, but rather to learn from each other.
 
+## Collaboration
+Each group needs to write their own code and report. However, talking to each other is of cause encouraged.
+
 ## Report
 You need to hand in a report for your project. 
+Code should be published on github.
 The report should explain some background and show and explain your results.
 You can also explain what you may add to your project, if you had more time.
 The report should not exceed 10 pages latex article.
