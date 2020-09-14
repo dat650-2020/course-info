@@ -12,8 +12,8 @@
 ## Project topics
 
 Two project topics are available:
-* [Bitcoin mining project](pow)
-* [Selfish mining project](selfish)
+* [Bitcoin mining project](pow.md)
+* [Selfish mining project](selfish.md)
 
 If you want to do a different project or change parts of your project, please talk to me, I'm happy to help on that.
 
