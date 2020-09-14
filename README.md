@@ -37,33 +37,33 @@ Additional material is linked [here](resources.md).
 |Tue 01.Sep | Lecture | Proof of Work - Forks | Chapter 3.4 [slides](slides/Lecture-4.pdf) |
 |Tue 01.Sep | Lab | [Lab 2](https://github.com/dat650-2020/assignments/tree/master/lab2) |  |
 |Thr 03.Sep | Lecture | Selfish mining | Chapter 3.5 [slides](slides/Lecture-5.pdf) |
-|Tue 08.Sep | Lecture | Network attacks and hard and soft forks | Chapter 3.6 - 3.8 |
+|Tue 08.Sep | Lecture | Network attacks and hard and soft forks | Chapter 3.6 - 3.8, [slides](slides/Lecture-6.pdf) |
 |Tue 08.Sep | Lab | Lab 2 |  |
-|Thr 10.Sep | Lecture | Alternative PoW and Scaling PoW (reparametrization) | Chapter 4 and 5.1  |
+|Thr 10.Sep | Lecture | Alternative PoW and Scaling PoW (reparametrization) | Chapter 4 and 5.1,[slides](slides/Lecture-7.pdf), [Video](https://youtu.be/TipGy2bOVL4)  |
 |Tue 15.Sep | Lecture | Bitcoin-NG and Scharding | Chapter 5.2 and 5.3, [Bitcoin-NG](https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal) [Sharding](https://www.usenix.org/conference/nsdi19/presentation/wang-jiaping) |
 |Tue 15.Sep | Lab |[Lab 3](https://github.com/dat650-2020/assignments/tree/master/lab3) |  |
-|Thr 17.Sep | Lecture | TBA |  |
-|Tue 22.Sep | Lecture |TBA |  |
+|Thr 17.Sep | Lecture | Stellar and System models |  |
+|Tue 22.Sep | Lecture |BFT 1 |  |
 |Tue 22.Sep | Lab | Lab 3 |  |
-|Thr 24.Sep | Lecture | TBA |  |
-|Tue 29.Sep | Lecture |TBA |  |
+|Thr 24.Sep | Lecture | BFT 2 |  |
+|Tue 29.Sep | Lecture |Projects |  |
 |Tue 29.Sep | Lab | [Projects](https://github.com/dat650-2020/course-info/blob/master/projects) |  |
-|Thr 01.Oct | Lecture | TBA |  |
-|Tue 06.Oct | Lecture |TBA |  |
+|Thr 01.Oct | Lecture | Projects |  |
+|Tue 06.Oct | Lecture |Projects |  |
 |Tue 06.Oct | Lab | Project |  |
-|Thr 08.Oct | Lecture | TBA |  |
-|Tue 13.Oct | Lecture |TBA |  |
-|Tue 13.Oct | Lab | Project |  |
-|Thr 15.Oct | Lecture | TBA |  |
-|Tue 20.Oct | Lecture |TBA |  |
+|Thr 08.Oct | Lecture | Projects |  |
+|Tue 13.Oct | Lecture |Ethereum |  |
+|Tue 13.Oct | Lab | Project presentation |  |
+|Thr 15.Oct | Lecture | Smart Contracts |  |
+|Tue 20.Oct | Lecture |Smart Contracts |  |
 |Tue 20.Oct | Lab | [Lab 4](https://github.com/dat650-2020/assignments/tree/master/lab4) |  |
-|Thr 22.Oct | Lecture | TBA |  |
-|Tue 27.Oct | Lecture |TBA |  |
+|Thr 22.Oct | Lecture | Smart Contract security |  |
+|Tue 27.Oct | Lecture | Oracles and Off chain networks|  |
 |Thr 27.Oct | Lab | [Lab 5](https://github.com/dat650-2020/assignments/tree/master/lab5) |  |
-|Thr 29.Oct | Lecture | TBA |  |
-|Tue 03.Nov | Lecture |TBA |  |
+|Thr 29.Oct | Lecture | Hybrid blockchains |  |
+|Tue 03.Nov | Lecture |Use cases |  |
 |Thr 03.Nov | Lab | Lab 5 |  |
-|Thr 05.Nov | Lecture | TBA |  |
+|Thr 05.Nov | Lecture | Tangle |  |
 |Tue 10.Nov | Lecture |TBA |  |
 |Thr 10.Nov | Lab | Final deadline |  |
 |Thr 12.Nov | Lecture | TBA |  |
