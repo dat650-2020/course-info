@@ -40,10 +40,10 @@ Additional material is linked [here](resources.md).
 |Tue 08.Sep | Lecture | Network attacks and hard and soft forks | Chapter 3.6 - 3.8, [slides](slides/Lecture-6.pdf) |
 |Tue 08.Sep | Lab | Lab 2 |  |
 |Thr 10.Sep | Lecture | Alternative PoW and Scaling PoW (reparametrization) | Chapter 4 and 5.1,[slides](slides/Lecture-7.pdf), [Video](https://youtu.be/TipGy2bOVL4)  |
-|Tue 15.Sep | Lecture | Bitcoin-NG and Scharding | Chapter 5.2 and 5.3, [Bitcoin-NG](https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal) [Sharding](https://www.usenix.org/conference/nsdi19/presentation/wang-jiaping) |
+|Tue 15.Sep | Lecture | Bitcoin-NG and Scharding | Chapter 5.2 and 5.3, [Bitcoin-NG](https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal) [Sharding](https://www.usenix.org/conference/nsdi19/presentation/wang-jiaping), [slides](slides/Lecture-8.pdf) |
 |Tue 15.Sep | Lab |[Lab 3](https://github.com/dat650-2020/assignments/tree/master/lab3) |  |
-|Thr 17.Sep | Lecture | Stellar and System models |  |
-|Tue 22.Sep | Lecture |BFT 1 |  |
+|Thr 17.Sep | Lecture | Stellar and System models | Chapter 6, [slides](slides/Lecture-9.pdf) |
+|Tue 22.Sep | Lecture |BFT 1 | Chapter 7.1 & 7.2, [slides](slides/Lecture-10.pdf) |
 |Tue 22.Sep | Lab | Lab 3 |  |
 |Thr 24.Sep | Lecture | BFT 2 |  |
 |Tue 29.Sep | Lecture |Projects |  |
