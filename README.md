@@ -45,28 +45,28 @@ Additional material is linked [here](resources.md).
 |Thr 17.Sep | Lecture | Stellar and System models | Chapter 6, [slides](slides/Lecture-9.pdf) |
 |Tue 22.Sep | Lecture |BFT 1 | Chapter 7.1 & 7.2, [slides](slides/Lecture-10.pdf) |
 |Tue 22.Sep | Lab | Lab 3 |  |
-|Thr 24.Sep | Lecture | BFT 2 |  |
+|Thr 24.Sep | Lecture | BFT 2 & Hybrid | Chapter 8, [slides](slides/Lecture-11.pdf) |
 |Tue 29.Sep | Lecture |Projects |  |
 |Tue 29.Sep | Lab | [Projects](https://github.com/dat650-2020/course-info/blob/master/projects) |  |
 |Thr 01.Oct | Lecture | Projects |  |
 |Tue 06.Oct | Lecture |Projects |  |
 |Tue 06.Oct | Lab | Project |  |
 |Thr 08.Oct | Lecture | Projects |  |
-|Tue 13.Oct | Lecture |Ethereum |  |
+|Tue 13.Oct | Lecture |Ethereum | Chapter 9.1, [slides](slides/Lecture-12.pdf)  |
 |Tue 13.Oct | Lab | Project presentation |  |
-|Thr 15.Oct | Lecture | Smart Contracts |  |
+|Thr 15.Oct | no Lecture | Learn Solidity | [crypto-zombies](https://cryptozombies.io/en/course) |
 |Tue 20.Oct | Lecture |Smart Contracts |  |
 |Tue 20.Oct | Lab | [Lab 4](https://github.com/dat650-2020/assignments/tree/master/lab4) |  |
 |Thr 22.Oct | Lecture | Smart Contract security |  |
 |Tue 27.Oct | Lecture | Oracles and Off chain networks|  |
 |Thr 27.Oct | Lab | [Lab 5](https://github.com/dat650-2020/assignments/tree/master/lab5) |  |
-|Thr 29.Oct | Lecture | Hybrid blockchains |  |
-|Tue 03.Nov | Lecture |Use cases |  |
+|Thr 29.Oct | Lecture | Use cases |  |
+|Tue 03.Nov | Lecture | Tangle |  |
 |Thr 03.Nov | Lab | Lab 5 |  |
-|Thr 05.Nov | Lecture | Tangle |  |
+|Thr 05.Nov | Lecture | TBA |  |
 |Tue 10.Nov | Lecture |TBA |  |
 |Thr 10.Nov | Lab | Final deadline |  |
-|Thr 12.Nov | Lecture | TBA |  |
+|Thr 12.Nov | Lecture | Repetition and quesions |  |
 
 
 
