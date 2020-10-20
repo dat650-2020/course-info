@@ -98,7 +98,7 @@ Checkout the [documentation](https://web3js.readthedocs.io/).
 
 ```javascript
 // get the deployed version of the MetaCoin contract:
-let contract = await MetaCoin.delpoyed();
+let contract = await MetaCoin.deployed();
 
 // get the addresses of the external accounts created for you on the ganache blockchain:
 let accounts = await web3.eth.getAccounts();
@@ -111,7 +111,7 @@ console.log(balance.toString());
 contract.sendCoin(accounts[1], 1000);
 
 // send coins from the a different address
-contract.sendCoint(accounts[2], 1000, { from: accounts[1], value: 0});
+contract.sendCoin(accounts[2], 1000, { from: accounts[1], value: 0});
 ```
 
 Check *Ganache* to verify that functions `getBalance` and `getBalanceInEth` do not trigger transactions. That is because they have the `view` attribute.
