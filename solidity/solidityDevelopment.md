@@ -67,7 +67,7 @@ Check out the contracts. In `contracts/`.
 $ truffle compile
 ```
 Will compile the contracts.
-After compilation you can find a generated `json` interface of the contracts in the `build/` folder.
+After compilation you can find the generated `json` interface of the contracts in the `build/` folder.
 
 ### Deploy the contracts
 
