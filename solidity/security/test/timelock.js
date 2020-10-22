@@ -1,10 +1,10 @@
 // Import all required modules from openzeppelin-test-helpers
-const { BN, constants, expectEvent, expectRevert } = require('@openzeppelin/test-helpers');
+const { BN, expectRevert } = require('@openzeppelin/test-helpers');
 
 const TimeLock = artifacts.require("TimeLock");
 
 // Using async/await
-contract("TimeLock", () => {
+contract.only("TimeLock", () => {
     before(async () => {
         this.accounts = await web3.eth.getAccounts();
         this.tl = await TimeLock.new();
@@ -12,18 +12,16 @@ contract("TimeLock", () => {
         await this.tl.deposit({ "value": 2 * web3.utils.unitMap.ether });
         // use getter
         this.time = await this.tl.lockTime(this.accounts[0]);
-    })
+    });
+
     it("timelock later than now", async () => {
-        let lastblocktime = 0;
-        web3.eth.getBlockNumber()
-            .then(number => web3.eth.getBlock(number))
-            .then(block => lastblocktime = block.timestamp);
-        assert.isAbove(this.time.toNumber(), lastblocktime);
-    })
+        let lastTimestamp = (await web3.eth.getBlock('latest')).timestamp;
+        assert.isAbove(this.time.toNumber(), lastTimestamp);
+    });
 
     it("timelock prevents withdrawal", async () => {
-        await expectRevert(this.tl.withdraw(), "revert");
-    })
+        await expectRevert(this.tl.withdraw(), "funds locked");
+    });
 
     it("timelock cannot be exploited", async () => {
         // bignmumber = 2**256
@@ -31,7 +29,9 @@ contract("TimeLock", () => {
         // use getter
         bignumber = bignumber.sub(this.time);
         await this.tl.increaseLockTime(bignumber.toString());
-        await expectRevert(this.tl.withdraw(), "revert");
-    }
-    )
+
+        // check overflow
+        let lockTime = await this.tl.lockTime(this.accounts[0]);
+        assert.equal(lockTime.toNumber(), 0);
+    });
 });
