@@ -19,8 +19,8 @@ contract SafeTimeLock {
     }
 
     function withdraw() public {
-        require(balances[msg.sender] > 0);
-        require(now > lockTime[msg.sender]);
+        require(balances[msg.sender] > 0, "insuficient balance");
+        require(now > lockTime[msg.sender], "funds locked");
         uint256 balance = balances[msg.sender];
         balances[msg.sender] = 0;
         msg.sender.transfer(balance);
