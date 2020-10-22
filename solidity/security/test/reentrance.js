@@ -1,5 +1,4 @@
 const { BN, expectRevert } = require('@openzeppelin/test-helpers');
-const { assertion } = require('@openzeppelin/test-helpers/src/expectRevert');
 
 const EtherStore = artifacts.require("EtherStore");
 const EtherStoreAttack = artifacts.require("EtherStoreAttack");
