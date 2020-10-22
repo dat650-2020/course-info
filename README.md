@@ -57,7 +57,7 @@ Additional material is linked [here](resources.md).
 |Thr 15.Oct | no Lecture | Learn Solidity | [crypto-zombies](https://cryptozombies.io/en/course) |
 |Tue 20.Oct | Lecture |Smart Contracts | [example](solidity/solidityDevelopment.md) |
 |Tue 20.Oct | Lab | [Lab 4](https://github.com/dat650-2020/assignments/tree/master/lab4) |  |
-|Thr 22.Oct | Lecture | Smart Contract security |  |
+|Thr 22.Oct | Lecture | Smart Contract security | [slides](slides/SmartContractSecurity.pdf), [reading](https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc), [examples](https://github.com/dat650-2019/course-info/tree/master/hacking/security) |
 |Tue 27.Oct | Lecture | Oracles and Off chain networks|  |
 |Thr 27.Oct | Lab | [Lab 5](https://github.com/dat650-2020/assignments/tree/master/lab5) |  |
 |Thr 29.Oct | Lecture | Use cases |  |
