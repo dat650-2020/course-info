@@ -1,5 +1,5 @@
 // Import all required modules from openzeppelin-test-helpers
-const { BN, constants, expectEvent, expectRevert } = require('openzeppelin-test-helpers');
+const { BN, constants, expectEvent, expectRevert } = require('@openzeppelin/test-helpers');
 
 const TimeLock = artifacts.require("TimeLock");
 
@@ -9,15 +9,15 @@ contract("TimeLock", () => {
         this.accounts = await web3.eth.getAccounts();
         this.tl = await TimeLock.new();
         // should be locked for 1 week
-        await this.tl.deposit({"value": 2 * web3.utils.unitMap.ether});
+        await this.tl.deposit({ "value": 2 * web3.utils.unitMap.ether });
         // use getter
         this.time = await this.tl.lockTime(this.accounts[0]);
     })
     it("timelock later than now", async () => {
         let lastblocktime = 0;
         web3.eth.getBlockNumber()
-        .then(number => web3.eth.getBlock(number))
-        .then(block => lastblocktime = block.timestamp);
+            .then(number => web3.eth.getBlock(number))
+            .then(block => lastblocktime = block.timestamp);
         assert.isAbove(this.time.toNumber(), lastblocktime);
     })
 
