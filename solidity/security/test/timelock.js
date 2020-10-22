@@ -4,7 +4,7 @@ const { BN, expectRevert } = require('@openzeppelin/test-helpers');
 const TimeLock = artifacts.require("TimeLock");
 
 // Using async/await
-contract.only("TimeLock", () => {
+contract("TimeLock", () => {
     before(async () => {
         this.accounts = await web3.eth.getAccounts();
         this.tl = await TimeLock.new();
@@ -23,7 +23,7 @@ contract.only("TimeLock", () => {
         await expectRevert(this.tl.withdraw(), "funds locked");
     });
 
-    it("timelock cannot be exploited", async () => {
+    it("timelock can be exploited by overflow", async () => {
         // bignmumber = 2**256
         let bignumber = new BN("115792089237316195423570985008687907853269984665640564039457584007913129639936")
         // use getter
