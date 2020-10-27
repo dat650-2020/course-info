@@ -1,13 +1,17 @@
 
 module.exports = {
-  
+
   // Make sure port fits you ganache port.
   networks: {
-    
+    ganache: { // ganache-cli
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "5777"
+    },
     development: {
-     host: "127.0.0.1",     // Localhost (default: none)
-     port: 7555,            // Standard Ethereum port (default: none)
-     network_id: "*",       // Any network (default: none)
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 7555,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
     },
   },
 
