@@ -60,11 +60,11 @@ Additional material is linked [here](resources.md).
 |Thr 22.Oct | Lecture | Smart Contract security | [slides](slides/SmartContractSecurity.pdf), [reading](https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc), [examples](solidity/security) |
 |Tue 27.Oct | Lecture | Oracles and Off chain networks| [slides](slides/Lecture-14.pdf) |
 |Thr 27.Oct | Lab | [Lab 5](https://github.com/dat650-2020/assignments/tree/master/lab5) |  |
-|Thr 29.Oct | Lecture | Use cases |  |
-|Tue 03.Nov | Lecture | Tangle |  |
+|Thr 29.Oct | Lecture | Use cases | [slides](slides/Lecture-15.pdf) |
+|Tue 03.Nov | Lecture | Privacy | [slides](slides/Lecture-16.pdf) |
 |Thr 03.Nov | Lab | Lab 5 |  |
-|Thr 05.Nov | Lecture | TBA |  |
-|Tue 10.Nov | Lecture |TBA |  |
+|Thr 05.Nov | No lecture |  |  |
+|Tue 10.Nov | Repetition | Q&A |  |
 |Thr 10.Nov | Lab | Final deadline |  |
 |Thr 12.Nov | Lecture | Repetition and quesions |  |
 
