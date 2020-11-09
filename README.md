@@ -3,6 +3,7 @@
 This repository contains usefull information and common resources for the DAT650 course.
 
 You can find here:
+* [Exam info](exam)
 * [Lecture Script](script.pdf)
 * [Lecture Schedule](#lectures)
 * [Lab info](#lab)
