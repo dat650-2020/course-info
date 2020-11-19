@@ -36,7 +36,7 @@ The folder will now cointain the following:
 * `contracts/`: Directory for Solidity contracts
 * `migrations/`: Directory for scriptable deployment files
 * `test/`: Directory for test files
-* `truffle-config.js`: Config file, to configure address for ethereum client, slidity compiler version, ...
+* `truffle-config.js`: Config file, to configure address for ethereum client, solidity compiler version, ...
 
 ## Example
 
@@ -58,21 +58,21 @@ OBS: If you use the Quickstart workspace in Ganache, you will have to do that ag
 ### Compiling the existing contracts
 
 Check out the contracts. In `contracts/`. 
-* `Migrations.sol` is the standard migration coontract used by truffle to manage deployments.
+* `Migrations.sol` is the standard migration contract used by truffle to manage deployments.
 * `ConvertLib.sol` is a library that contains a function for simple currency conversion.
 * `MetaCoin.sol` is a simple kind of token. Different addresses can have a token and send tokens to each other.
-    The MetaCoin conract uses the ConvertLib.
+    The MetaCoin contract uses the ConvertLib.
 
 ```
 $ truffle compile
 ```
 Will compile the contracts.
-After compilation you can find the `json` descriptions of the conracts in the `build/` folder.
+After compilation you can find the generated `json` interface of the contracts in the `build/` folder.
 
 ### Deploy the contracts
 
 The `migrations/` folder contains javascript code to deploy the contracts to the chain. 
-Chechout this [blog](https://medium.com/@blockchain101/demystifying-truffle-migrate-21afbcdf3264) if to better understand what the migrations do.
+Check out this [blog](https://medium.com/@blockchain101/demystifying-truffle-migrate-21afbcdf3264) to better understand what the migrations do.
 
 
 ```
@@ -80,7 +80,7 @@ $ truffle migrate
 ```
 This should create contract instances on the chain. 
 Check out the contracts in Ganache.
-To transactions have also been made on the `Migrations` contract.
+Two transactions have also been made on the `Migrations` contract.
 They mark the first and second migration as completed. (`1_....js` and `2_....js` files)
 
 ### Truffle console
@@ -93,8 +93,8 @@ You can use the contracts from the truffle console, using JavaScript.
 $ truffle console
 ```
 
-The console already has a reference to `web3` injected, a JavaScript library with many utilities. `
-Checkout the [documentation](https://web3js.readthedocs.io/).
+The console already has a reference to `web3` injected, a JavaScript library with many utilities thats easy interaction with contracts and Ethereum nodes.
+Check out the [documentation](https://web3js.readthedocs.io/).
 
 ```javascript
 // get the deployed version of the MetaCoin contract:
@@ -103,20 +103,23 @@ let contract = await MetaCoin.deployed();
 // get the addresses of the external accounts created for you on the ganache blockchain:
 let accounts = await web3.eth.getAccounts();
 
-// returns a BN (Big number)
+// get account balance. It returns a BN (Big number)
 let balance = await contract.getBalance(accounts[0]);
 console.log(balance.toString());
 
 // send coins from the default address (accounts[0])
 contract.sendCoin(accounts[1], 1000);
 
-// send coins from the a different address
+// send coins from a different address
 contract.sendCoin(accounts[2], 1000, { from: accounts[1], value: 0});
 ```
 
-Check *Ganache* to verify that functions `getBalance` and `getBalanceInEth` do not trigger transactions. That is because they have the `view` attribute.
+Check *Ganache* to verify that functions `getBalance` and `getBalanceInEth` do not trigger transactions.
+That is because they have the `view` attribute, and thus, only read the state of our contract, meaning that they do not need to be mined.
+Such methods are called [calls](https://web3js.readthedocs.io/en/v1.3.0/web3-eth.html?#call) in opposite to [transactions](https://ethereum.org/en/developers/docs/transactions/) that do modify the contract's state and, consequently, need to be mined.
 
-For transactions, it is not possible to inspect the return value. Check emitted Events instead.
+For transactions, it is not possible to inspect the return value, since the transaction will be only executed when added by a miner in a block.
+Thus, we should listen for Events emitted by the contract or inspect the blockchain Logs instead.
 
 ### Changing the contract
 We can change the `MetaCoin` constructor to include a conversions rate, that will then be used in `getBalanceInEth`.
